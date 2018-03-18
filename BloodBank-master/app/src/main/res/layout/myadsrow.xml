@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+    <RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+        android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/bloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/bloodGroupVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textSize="22sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/bloodGroup"
+        android:layout_toEndOf="@+id/bloodGroup"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Component:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/bloodGroup"/>
+
+    <TextView
+        android:id="@+id/componentVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RBC"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/component"
+        android:layout_toEndOf="@+id/component"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/maxamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@id/component"/>
+
+    <TextView
+        android:id="@+id/maxamountVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1L"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/maxamount"
+        android:layout_toEndOf="@+id/maxamount"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/maxamountunit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dl"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/maxamountVal"
+        android:layout_toEndOf="@+id/maxamountVal"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/pricePerUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price Per Unit:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@id/maxamount"/>
+
+    <TextView
+        android:id="@+id/pricePerUnitVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2985"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/pricePerUnit"
+        android:layout_toEndOf="@+id/pricePerUnit"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/pricePerUnitUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹/dl"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/pricePerUnitVal"
+        android:layout_toEndOf="@+id/pricePerUnitVal"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/buyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buyer"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/pricePerUnit"/>
+
+    <TextView
+        android:id="@+id/buyerVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Purchased Yet"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/buyer"
+        android:layout_toEndOf="@+id/buyer"
+        android:layout_marginStart="8dp" />
+
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

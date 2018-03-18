@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string-array name="bloodgroups">
+
+        <item />
+
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>B-</item>
+        <item>B+</item>
+        <item>A-</item>
+        <item>AB-</item>
+        <item>AB+</item>
+
+    </string-array>
+
+    <string-array name="components">
+
+        <item />
+
+        <item>blood</item>
+        <item>platelets</item>
+        <item>wbc</item>
+        <item>rbc</item>
+        <item>plasma</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+</resources>

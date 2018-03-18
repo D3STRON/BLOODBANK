@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "612628814230",
+    "firebase_url": "https://algorithm40-82a15.firebaseio.com",
+    "project_id": "algorithm40-82a15",
+    "storage_bucket": "algorithm40-82a15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612628814230:android:dcf84cc70eb85864",
+        "android_client_info": {
+          "package_name": "com.mab.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612628814230-b3ee7clqicjd7730s5fculo4urojt7hu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mab.bloodbank",
+            "certificate_hash": "1819a3ff2874712b10de0a8b8d115ed4c81e4d1d"
+          }
+        },
+        {
+          "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMS67TSOc1OiHgwq5v0vw7nt2enCmF88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612628814230:android:fda34958bea84225",
+        "android_client_info": {
+          "package_name": "com.example.shaik_000.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612628814230-e9nc3aed7vcr3vhiukev3d61f4l0msn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shaik_000.bloodbank",
+            "certificate_hash": "0a8acfb76c811f14440cac08d758687ac5681aab"
+          }
+        },
+        {
+          "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMS67TSOc1OiHgwq5v0vw7nt2enCmF88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612628814230:android:2d172896975d1d40",
+        "android_client_info": {
+          "package_name": "com.example.codept.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612628814230-bj5utrceit26kiorgrdrec19fpjfgl7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codept.firstapp",
+            "certificate_hash": "85275bb3e9aa4de6d6341a5990971b4269900f0a"
+          }
+        },
+        {
+          "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMS67TSOc1OiHgwq5v0vw7nt2enCmF88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612628814230:android:dcde24406eef5075",
+        "android_client_info": {
+          "package_name": "blood.com.bloodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "612628814230-157cpmojtdbn3jqk5pfhtofdc09ekev1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blood.com.bloodbank",
+            "certificate_hash": "85275bb3e9aa4de6d6341a5990971b4269900f0a"
+          }
+        },
+        {
+          "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABMS67TSOc1OiHgwq5v0vw7nt2enCmF88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "612628814230-dsigja1lk0mok74ppkiai71hfmu2bc85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

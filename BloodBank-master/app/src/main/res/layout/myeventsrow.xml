@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/NameVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textSize="20sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/Name"
+        android:layout_toEndOf="@+id/Name"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/Name"/>
+
+    <TextView
+        android:id="@+id/DescriptionVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RBC"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/Description"
+        android:layout_toEndOf="@+id/Description"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@id/Description"/>
+
+    <TextView
+        android:id="@+id/addressVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1L"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/address"
+        android:layout_toEndOf="@+id/address"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@id/address"/>
+
+    <TextView
+        android:id="@+id/dateVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2985"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/date"
+        android:layout_toEndOf="@+id/date"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
+</android.support.v7.widget.CardView>

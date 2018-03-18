@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/bloodGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blood Group:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/bloodGroupVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B+"
+        android:textSize="22sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/bloodGroup"
+        android:layout_toEndOf="@+id/bloodGroup"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/component"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Component:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/bloodGroup"/>
+
+    <TextView
+        android:id="@+id/componentVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RBC"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/component"
+        android:layout_toEndOf="@+id/component"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@id/component"/>
+
+    <TextView
+        android:id="@+id/amountVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1L"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/amount"
+        android:layout_toEndOf="@+id/amount"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/amountUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="dl"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/amountVal"
+        android:layout_toEndOf="@+id/amountVal"
+        android:layout_marginStart="8dp" />
+    <TextView
+        android:id="@+id/seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_margin="8dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/amount"/>
+
+    <TextView
+        android:id="@+id/sellerVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Purchased Yet"
+        android:textSize="16sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_alignBottom="@+id/seller"
+        android:layout_toEndOf="@+id/seller"
+        android:layout_marginStart="8dp" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller">
+    <Button
+        android:id="@+id/confirmBtn"
+        android:text="Confirm"
+        android:background="@android:color/white"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="14sp"
+        android:layout_weight="0.5"/>
+        <Button
+            android:id="@+id/cancelBtn"
+            android:text="Cancel"
+            android:background="@android:color/white"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_margin="8dp"/>
+    </LinearLayout>
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>
