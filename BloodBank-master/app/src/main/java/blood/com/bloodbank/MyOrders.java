@@ -94,6 +94,7 @@ public class MyOrders extends AppCompatActivity implements GoogleApiClient.Conne
                             FirebaseDatabase.getInstance().getReference("BloodBanks").child(holder.getSeller()).addValueEventListener(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(DataSnapshot dataSnapshot) {
+                                    //Toast.makeText(MyOrders.this, holder.getSeller(), Toast.LENGTH_SHORT).show();
                                     Intent intent= new Intent(Intent.ACTION_SEND);
                                     String[] to={dataSnapshot.child("email").getValue().toString()};
                                     intent.setData(Uri.parse("mailto:"));
@@ -167,6 +168,8 @@ public class MyOrders extends AppCompatActivity implements GoogleApiClient.Conne
                                    maxamount-=Integer.parseInt(holder.getAmount());
                                    if(maxamount!=0) {
                                        FirebaseDatabase.getInstance().getReference("Market").child("Sell").child(holder.getBloodgroup()).child(holder.getComponentname()).child(holder.getSellid()).child("maxamount").setValue(Integer.toString(maxamount));
+                                       FirebaseDatabase.getInstance().getReference("Market").child("Sell").child(holder.getBloodgroup()).child(holder.getComponentname()).child(holder.getSellid()).child("buyer").setValue("");
+                                       FirebaseDatabase.getInstance().getReference("Market").child("Sell").child(holder.getBloodgroup()).child(holder.getComponentname()).child(holder.getSellid()).child("buyid").setValue("");
                                    }else{
                                        FirebaseDatabase.getInstance().getReference("Market").child("Sell").child(holder.getBloodgroup()).child(holder.getComponentname()).child(holder.getSellid()).removeValue();
                                    }
@@ -185,6 +188,8 @@ public class MyOrders extends AppCompatActivity implements GoogleApiClient.Conne
                                    maxamount-=Integer.parseInt(holder.getAmount());
                                    if(maxamount!=0) {
                                        FirebaseDatabase.getInstance().getReference("BloodBanks").child(holder.getSeller()).child("myAds").child(holder.getSellid()).child("maxamount").setValue(Integer.toString(maxamount));
+                                       FirebaseDatabase.getInstance().getReference("BloodBanks").child(holder.getSeller()).child("myAds").child(holder.getSellid()).child("buyer").setValue("");
+                                       FirebaseDatabase.getInstance().getReference("BloodBanks").child(holder.getSeller()).child("myAds").child(holder.getSellid()).child("buyid").setValue("");
                                    }else{
                                        FirebaseDatabase.getInstance().getReference("BloodBanks").child(holder.getSeller()).child("myAds").child(holder.getSellid()).removeValue();
                                    }
